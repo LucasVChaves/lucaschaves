@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <meta name="author" content="Lucas Chaves">
+        <title>Lucas Chaves - Homepage</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <table class="header">
+            <tr>
+                <td colspan="2" rowspan="2" class="width-auto">
+                <h1 class="title">Lucas Chaves</h1>
+                <span class="subtitle">Embedded Systems | OS Development | Robotics</span>
+                </td>
+                <th>Experience</th>
+                <td class="width-min">Junior Dev</td>
+            </tr>
+            <tr>
+                <th>Updated</th>
+                <td class="width-min"><time style="white-space: pre;">2024-08-26</time></td>
+            </tr>
+            <tr>
+                <th class="width-min">Stack</th>
+                <td>C C++ Rust Python OpenCV CNNs ML AI</td>
+                <th class="width-min">License</th>
+                <td>MIT</td>
+            </tr>
+        </table>
+
+        <nav id="TOC" role="doc-toc">
+            <h2 id="toc-title">Contents</h2>
+            <ul class="incremental">
+            <li><a href="#introduction" id="toc-introduction">Introduction</a></li>
+            <li><a href="#bio" id="toc-bio">Bio</a></li>
+            <li><a href="#projects" id="toc-projects">Projects</a></li>
+            <li><a href="#articles" id="toc-articles">Articles</a></li>
+            <li><a href="#contact" id="toc-contact">Contact</a></li>
+            <li><a href="#about-site" id="toc-about-site">About this site</a></li>
+            </ul>
+        </nav>
+
+        <h2 id="introduction">Introduction</h2>
+        <p>Welcome to my personal portfolio website!<br/> My name is <strong>Lucas Chaves</strong>, and I am passionate about embedded systems, operating system development, and robotics. With a strong background in <strong>C, C++, Rust, and Python</strong>, I have worked on various projects involving OpenCV, Convolutional Neural Networks (CNNs), Machine Learning (ML), and Artificial Intelligence (AI), most of tem applied to <strong>Robotics and Computer Vision.</strong></p>
+        <p>
+        Here, you will find information about my professional experience, projects, and articles I have written. Thank you for visiting, and I hope you find my work interesting and inspiring.</p>
+
+        <h2 id="bio">Bio</h2>
+        <ul class="incremental">
+            <li><strong>2004</strong> - Born in Juiz de Fora, Brazil</li>
+            <li><strong>2008</strong> - My first contact with computers. Got instantly amazed by them</li>
+            <li><strong>2016</strong> - Found a Python class on Youtube, and here started my coding adventures</li>
+            <li><strong>2017</strong> - Got an Arduino Uno as a gift and fell in love with low-level development and electronics</li>
+            <li><strong>2022</strong> - Was accepted to study at the Federal University of Juiz de Fora; Started studying Electric Enginnering, but changed to Information Systems (AKA Software Enginnering)</li>
+            <li><strong>2023</strong> - Joined the Rinobot Robotics Team developing NAO humanoid robots. Had the honour to be a competitor at RoboCup 2023 in Bordeaux, France.</li>
+        </ul>
+
+        <h2 id="projects">Projects</h2>
+        <p>Main projects I've been working on:</p>
+        <table class="project-table">
+            <tr>
+                <td colspan="2" class="width-auto">
+                <h1>Tamboerijn</h1>
+                <p>The framework and operational system we use at <a href="https://www.instagram.com/rinobotbrasil/">Rinobot Team</a> for our NAO humanoid robots. It uses a BitBake build Linux image, our multithreaded framework built in Rust and a tinyYoLo based CNN for computer vision.</p>
+                </td>
+            </tr>
+            <tr>
+                <th class="width-min">Stack</th>
+                <td class="width-auto">Rust | OpenCV | tinyYoLo | Lua | Python | Linux | BitBake</td>
+            </tr>
+            <tr>
+                <th class="width-min">Source Code</th>
+                <td class="width-auto"><a href="https://github.com/rinobot-team/Tamboerijn" target="_blank">Github Repo</a></td>
+            </tr>
+        </table>
+        <figure>
+            <img src="public/naos.png" alt="NAO robots playing soccer at Robocup23">
+            <figcaption aria-hidden="true">NAO robots playing soccer at Robocup(2023)</figcaption>
+        </figure>
+
+        <table class="project-table">
+            <tr>
+                <td colspan="2" class="width-auto">
+                <h1>Hexennacht</h1>
+                <p>A simple command-line hex and metadata editor. It uses VIM shortcuts for navigation and editing.</p>
+                </td>
+            </tr>
+            <tr>
+                <th class="width-min">Stack</th>
+                <td class="width-auto">C++ | CMake | CLI11</td>
+            </tr>
+            <tr>
+                <th class="width-min">Source Code</th>
+                <td class="width-auto"><a href="https://github.com/LucasVChaves/Hexennacht" target="_blank">Github Repo</a></td>
+            </tr>
+        </table>
+        <figure>
+            <img src="public/hexennacht.png" alt="Console with the CLI program hexdumping a rust file">
+            <figcaption aria-hidden="true">Hexennacht hexdumping a rust file</figcaption>
+        </figure>
+
+        <table class="project-table">
+            <tr>
+                <td colspan="2" class="width-auto">
+                <h1>MelbOS</h1>
+                <p>Bare-bones operational system built in Rust. Based on a articles series by <a href="https://github.com/phil-opp" target="_blank">Philipp Oppermann</a>.</p>
+                </td>
+            </tr>
+            <tr>
+                <th class="width-min">Stack</th>
+                <td class="width-auto">Rust | Tokio | Cargo | Docker | QEMU</td>
+            </tr>
+            <tr>
+                <th class="width-min">Source Code</th>
+                <td class="width-auto"><a href="https://github.com/LucasVChaves/MelbOs" target="_blank">Github Repo</a></td>
+            </tr>
+        </table>
+        <figure>
+            <img src="public/MelbosLogo.png" alt="MelbOS Logo">
+            <figcaption aria-hidden="true">MelbOS Logo</figcaption>
+        </figure>
+    </body>
+
+    <h2 id="articles">Articles</h2>
+    <p>TODO!</p>
+
+    <h2 id="contact">Contact</h2>
+    <ul class="incremental">
+        <li><strong>Github</strong> => <a href="https://github.com/LucasVChaves" target="_blank">LucasVChaves</a></li>
+        <li><strong>Discord</strong> => y3t_</li>
+        <li><strong>Email</strong> => <a href="mailto:lucasvchaves@gmail.com" target="_blank">lucasvchaves@gmail.com</a></li>
+        <li><strong>LinkedIn</strong> => <a href="https://www.linkedin.com/in/lucasvchaves" target="_blank"></a>lucasvchaves</li>
+    </ul>
+
+    <h2 id="about-site">About this site</h2>
+    <p>You've propably noticed this site looks a bit too minimalist. It is based on the <a href="http://owickstrom.github.io/the-monospace-web/" target="_blank">Monospace Web</a> developed by <a href="http://wickstrom.tech/" target="_blank">Oskar Wickström</a>.</p> 
+    <p>It is a neat new way to design a website that focus on simplicity and lightness, in opposition to current web-development that founds itself bloated and cumbersome to build and mantain.</p>
+</html>
