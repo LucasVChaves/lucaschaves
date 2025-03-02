@@ -1,4 +1,8 @@
 @import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+@font-face {
+    font-family: "Breamcatcher";
+    src: url("./public/breamcatcher.otf") format("opentype");
+}
 
 :root {
     --font-family: "Fira Code", monospace;
@@ -69,20 +73,21 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Breamcatcher";
     font-weight: var(--font-weight-bold);
     margin: calc(var(--line-height) * 2) 0 var(--line-height);
     line-height: var(--line-height);
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.7rem;
     line-height: calc(2 * var(--line-height));
-    margin-bottom: calc(var(--line-height) * 2);
+    margin-bottom: calc(var(--line-height) * 3);
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     text-transform: uppercase;
 }
 
